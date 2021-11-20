@@ -40,6 +40,4 @@ int main()
     }
 
     cout << x << ' ' << y << '\n';
-
-    return 0;
 }

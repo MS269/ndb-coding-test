@@ -13,7 +13,7 @@ bool check(int h, int m, int s)
     return false;
 }
 
-int main(void)
+int main()
 {
     cin >> h;
 
@@ -32,6 +32,4 @@ int main(void)
     }
 
     cout << cnt << '\n';
-
-    return 0;
 }

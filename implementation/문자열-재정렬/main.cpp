@@ -6,7 +6,7 @@ string str;
 vector<char> result;
 int value = 0;
 
-int main(void)
+int main()
 {
     cin >> str;
 
@@ -33,6 +33,4 @@ int main(void)
         cout << value;
     }
     cout << '\n';
-
-    return 0;
 }

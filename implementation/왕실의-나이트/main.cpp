@@ -7,7 +7,7 @@ string inputData;
 int dx[] = {-2, -1, 1, 2, 2, 1, -1, -2};
 int dy[] = {-1, -2, -2, -1, 1, 2, 2, 1};
 
-int main(void)
+int main()
 {
     cin >> inputData;
     int row = inputData[1] - '0';
@@ -26,6 +26,4 @@ int main(void)
     }
 
     cout << result << '\n';
-
-    return 0;
 }
