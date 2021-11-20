@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
@@ -30,8 +28,6 @@ public class Main {
         }
 
         System.out.println(result);
-
-        sc.close();
     }
 
 }

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
@@ -23,8 +23,6 @@ public class Main {
 
         result += (n - 1);
         System.out.println(result);
-
-        sc.close();
     }
 
 }
