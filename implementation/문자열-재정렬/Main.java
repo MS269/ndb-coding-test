@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
@@ -27,8 +27,6 @@ public class Main {
             System.out.print(value);
         }
         System.out.println();
-
-        sc.close();
     }
 
 }
