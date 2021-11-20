@@ -26,6 +26,4 @@ int main()
 
     result += (n - 1);
     cout << result << '\n';
-
-    return 0;
 }
