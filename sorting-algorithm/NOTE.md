@@ -40,7 +40,7 @@ int main() {
         swap(arr[i], arr[min_index]);
     }
 
-    for(int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         cout << arr[i] << ' ';
     }
 }
@@ -68,7 +68,7 @@ public class Main {
             arr[min_index] = temp;
         }
 
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
     }
@@ -148,7 +148,7 @@ public class Main {
             }
         }
 
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
     }
