@@ -9,6 +9,8 @@
 - ''.join(): 리스트 > 문자열
 - ord(): 문자 > 유니코드
 - isalpha(): 알파벳인지 확인
+- bisect_left(): 정렬된 순서를 유지하면서 배열에 변수를 삽입할 가장 왼쪽 인덱스를 반환
+- bisect_right(): 정렬된 순서를 유지하면서 배열에 변수를 삽입할 가장 왼쪽 인덱스를 반환
 
 ## C++ STL(Standard Template Library)
 
@@ -19,6 +21,8 @@
 - vector<타입>: 배열
 - sort(벡터.begin(), 벡터.end()): 정렬
 - isalpha(): 알파벳인지 확인
+- lower_bound(벡터.begin(), 벡터.end(), 변수): 배열에 변수를 삽입할 가장 왼쪽 인덱스를 반환
+- upperbound(벡터.begin(), 벡터.end(), 변수): 배열에 변수를 삽입할 가장 왼쪽 인덱스를 반환
 
 ## Java JCL(Java Class Library)
 
