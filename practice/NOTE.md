@@ -15,7 +15,7 @@ b = q.popleft()
 ```py
 import sys
 
-sys.setrecursionlimit(1000000)
+sys.setrecursionlimit(10 ** 6)
 ```
 
 - 깊은 복사(Deep Copy)
