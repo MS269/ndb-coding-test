@@ -12,9 +12,20 @@ b = chr(97) # a
 ```py
 from collections import deque
 
-q = deque()
-q.append(a)
-b = q.popleft()
+q = deque([1, 2, 3, 4, 5])
+q.append(0)
+a = q.popleft() # 1
+```
+
+## 우선순위 큐(Priority Queue)
+
+```py
+import heapq # min heap
+
+pq = [1, 2, 3, 4, 5]
+heapq.heapify(pq)
+heapq.heappush(pq, 0)
+b = heapq.heappop(pq) # 0
 ```
 
 ## RecursionError 해결법
