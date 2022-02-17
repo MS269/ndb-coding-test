@@ -6,6 +6,6 @@ for i in range(n - 1, -1, -1):
     if i + a[i][0] > n:
         dp[i] = dp[i + 1]
     else:
-        dp[i] = max(a[i][1] + dp[i + a[i][0]], dp[i + 1])
+        dp[i] = max(dp[i + 1], a[i][1] + dp[i + a[i][0]])
 
 print(dp[0])
